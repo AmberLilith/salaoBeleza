@@ -1,0 +1,64 @@
+.pageTitle{
+}
+/*Cass for each element in container with options*/
+.collapseOptions{
+    background-color: rgb(194, 188, 188);
+    margin-bottom: 10px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+/*Class for element whom acivate exhibition of element container with options*/
+.collapser{
+    background-color: gray;
+    margin-bottom: 10px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.collapseOptions:hover{
+    background-color: rgb(97, 93, 93);
+    cursor: pointer;
+}
+
+.collapser:hover{
+    background-color: rgb(97, 93, 93);
+    cursor: pointer;
+}
+
+/*Classes visibilityHiddden and fade-in are used together in the javascript function
+applyFadeInClass - into classesGrais.css - to activate de opacity transition of the
+ element*/ 
+.displayHidden{
+    visibility:hidden;
+  }
+
+  .fade-in {
+    text-decoration: underline;
+    visibility:visible;
+    color:rgb(69, 69, 182);
+    opacity:0;
+    transition: opacity 5s;
+  }
+
+  details, section{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding:10px;
+    margin: 10px 0px 10px 0px;
+}
+
+summary{
+    font-size: 20px;
+    background-color: gray;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+summary:hover{
+    font-weight: bold;
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+
+
