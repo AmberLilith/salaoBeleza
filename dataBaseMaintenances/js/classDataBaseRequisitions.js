@@ -26,7 +26,6 @@
     }//end if ajaxRequisition()    
     
     createRecord(tableName, values){
-        alert("cu")
         let query = `INSERT INTO ${tableName} VALUES (${values});`;
         let requisitonType = "insert";
         this.ajaxRequisition(query,requisitonType);
